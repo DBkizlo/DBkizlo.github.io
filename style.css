@@ -37,38 +37,32 @@ header{
     z-index: 100;
 }
 
-.email {
+.fliestext-drucken{
+	font-size: 2rem;
+}
+
+.printing-text{
+   font-weight: 800;
+	color: #b74b4b;
+   font-size: 3rem;
+   font-weight: 800;
+}
+
+.contact-1 {
    color: #b74b4b;
    font-weight: 800;
 	font-size: 3rem;
-   cursor: pointer;
    transition: 0.5s ease;
 }
 
-.email-actual {
-	
+.contact-2 {
    font-weight: 800;
 	font-size: 3rem;
-   cursor: pointer;
    transition: 0.5s ease;
 }
 
 .logo-img {
 	width: 20%;
-}
-
-
-.logo{
-    font-size: 3rem;
-    color: #b74b4b;
-    font-weight: 800;
-    cursor: pointer;
-    transition: 0.5s ease;
-}
-
-.logo:hover{
-    transform: scale(1.1);
-    
 }
 
 nav a{
@@ -113,6 +107,7 @@ nav a.active{
 
     nav a:hover,
     nav a.active{
+    	  display: block;
         padding: 1rem;
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid #b74b4b;
@@ -201,6 +196,7 @@ span{
 }
 
 .btn{
+	 text-align: center;
     display: inline-block;
     padding: 1rem 2.8rem;
     background-color: black;
