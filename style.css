@@ -37,6 +37,27 @@ header{
     z-index: 100;
 }
 
+.email {
+   color: #b74b4b;
+   font-weight: 800;
+	font-size: 3rem;
+   cursor: pointer;
+   transition: 0.5s ease;
+}
+
+.email-actual {
+	
+   font-weight: 800;
+	font-size: 3rem;
+   cursor: pointer;
+   transition: 0.5s ease;
+}
+
+.logo-img {
+	width: 20%;
+}
+
+
 .logo{
     font-size: 3rem;
     color: #b74b4b;
@@ -47,6 +68,7 @@ header{
 
 .logo:hover{
     transform: scale(1.1);
+    
 }
 
 nav a{
@@ -118,6 +140,14 @@ section{
 
 span{
     color: #b74b4b;
+}
+
+.home-content-contact{
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;	
+	
 }
 
 .home-content h3{
