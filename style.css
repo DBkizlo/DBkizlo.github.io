@@ -37,12 +37,16 @@ header{
     z-index: 100;
 }
 
+.roter-text{
+	color: #b74b4b;
+   font-size: 3rem;
+}
+
 .fliestext-drucken{
 	font-size: 2rem;
 }
 
 .printing-text{
-   font-weight: 800;
 	color: #b74b4b;
    font-size: 3rem;
    font-weight: 800;
